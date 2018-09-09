@@ -14,6 +14,14 @@
 		280CDE4A21245AD20071C060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280CDE4821245AD20071C060 /* LaunchScreen.storyboard */; };
 		280CDE5521245AD20071C060 /* seshuPageControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280CDE5421245AD20071C060 /* seshuPageControlTests.swift */; };
 		280CDE6021245AD30071C060 /* seshuPageControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280CDE5F21245AD30071C060 /* seshuPageControlUITests.swift */; };
+		280CDE6E21248B0E0071C060 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280CDE6D21248B0E0071C060 /* SecondViewController.swift */; };
+		280CDE70212497A60071C060 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280CDE6F212497A60071C060 /* ThirdViewController.swift */; };
+		28A4FD42213C5463009E979E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A4FD41213C5463009E979E /* TableViewController.swift */; };
+		28A4FD44213C5485009E979E /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A4FD43213C5485009E979E /* UserCell.swift */; };
+		28A4FD46213C55D6009E979E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A4FD45213C55D6009E979E /* User.swift */; };
+		28DED93F213955B7008A8776 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DED93E213955B7008A8776 /* PopupViewController.swift */; };
+		28DED94121395784008A8776 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DED94021395784008A8776 /* UIViewExtensions.swift */; };
+		28E7B1412137F01E00AC79E9 /* PaytmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E7B1402137F01E00AC79E9 /* PaytmViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		280CDE5B21245AD30071C060 /* seshuPageControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seshuPageControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		280CDE5F21245AD30071C060 /* seshuPageControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seshuPageControlUITests.swift; sourceTree = "<group>"; };
 		280CDE6121245AD30071C060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280CDE6D21248B0E0071C060 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		280CDE6F212497A60071C060 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		28A4FD41213C5463009E979E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		28A4FD43213C5485009E979E /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		28A4FD45213C55D6009E979E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		28DED93E213955B7008A8776 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		28DED94021395784008A8776 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		28E7B1402137F01E00AC79E9 /* PaytmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaytmViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +93,7 @@
 		280CDE3321245AC70071C060 = {
 			isa = PBXGroup;
 			children = (
+				28A4FD40213C5442009E979E /* TableView */,
 				280CDE3E21245AC70071C060 /* seshuPageControl */,
 				280CDE5321245AD20071C060 /* seshuPageControlTests */,
 				280CDE5E21245AD30071C060 /* seshuPageControlUITests */,
@@ -97,9 +114,13 @@
 		280CDE3E21245AC70071C060 /* seshuPageControl */ = {
 			isa = PBXGroup;
 			children = (
+				28DED93D2139559F008A8776 /* Popup */,
 				280CDE3F21245AC70071C060 /* AppDelegate.swift */,
 				280CDE4121245AC70071C060 /* ViewController.swift */,
 				280CDE4321245AC70071C060 /* Main.storyboard */,
+				28E7B1402137F01E00AC79E9 /* PaytmViewController.swift */,
+				280CDE6D21248B0E0071C060 /* SecondViewController.swift */,
+				280CDE6F212497A60071C060 /* ThirdViewController.swift */,
 				280CDE4621245AD20071C060 /* Assets.xcassets */,
 				280CDE4821245AD20071C060 /* LaunchScreen.storyboard */,
 				280CDE4B21245AD20071C060 /* Info.plist */,
@@ -123,6 +144,25 @@
 				280CDE6121245AD30071C060 /* Info.plist */,
 			);
 			path = seshuPageControlUITests;
+			sourceTree = "<group>";
+		};
+		28A4FD40213C5442009E979E /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				28A4FD41213C5463009E979E /* TableViewController.swift */,
+				28A4FD43213C5485009E979E /* UserCell.swift */,
+				28A4FD45213C55D6009E979E /* User.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		28DED93D2139559F008A8776 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				28DED93E213955B7008A8776 /* PopupViewController.swift */,
+				28DED94021395784008A8776 /* UIViewExtensions.swift */,
+			);
+			path = Popup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +296,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280CDE6E21248B0E0071C060 /* SecondViewController.swift in Sources */,
+				28DED94121395784008A8776 /* UIViewExtensions.swift in Sources */,
 				280CDE4221245AC70071C060 /* ViewController.swift in Sources */,
+				28A4FD42213C5463009E979E /* TableViewController.swift in Sources */,
+				280CDE70212497A60071C060 /* ThirdViewController.swift in Sources */,
+				28A4FD44213C5485009E979E /* UserCell.swift in Sources */,
 				280CDE4021245AC70071C060 /* AppDelegate.swift in Sources */,
+				28E7B1412137F01E00AC79E9 /* PaytmViewController.swift in Sources */,
+				28A4FD46213C55D6009E979E /* User.swift in Sources */,
+				28DED93F213955B7008A8776 /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
